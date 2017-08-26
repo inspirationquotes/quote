@@ -1,0 +1,50 @@
+
+.container{
+    border-color: cornflowerblue;
+    border-width: thick;
+    border-style:groove;
+}
+#image{
+    width:100%;
+    height:500px;
+    position:relative;
+    background-image: url("world.jpg");
+    z-index:1;
+    background-attachment: fixed;
+}
+#basic{
+    width:100%;
+    height:100%;
+    background-color:#09b6ef;
+}
+
+.quote{
+    font-family: 'Alex Brush';
+    font-size: 90px;
+    position: absolute;
+    left:450px;
+    z-index:2;
+    top:200px;
+}
+
+.eve{
+    height:100%;
+    width:300px;
+    color:white;
+    margin:50px 150px 50px 150px;
+    font-size:28px;
+    display:inline-block;
+    background-color:black;
+    border-radius:25%;
+    
+}
+.eve:hover{
+    background-color: red;
+}
+.ts{
+    font-family:'Alex Brush';
+    background-color: chartreuse;
+}
+.st{
+    font-family: 'Amatic SC';
+}
